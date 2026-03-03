@@ -1,0 +1,14 @@
+/* Временные стили для проверки структуры */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #333;
+}
+
+header,
+section,
+footer {
+  padding: 20px;
+  margin: 10px;
+  border: 1px dashed #ccc; /* временно, чтобы видеть границы */
+}

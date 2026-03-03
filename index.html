@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space</title>
+    <!--Space - Космос-->
+    <link rel="stylesheet" href="css/reset.css" />
+  </head>
+  <body>
+    <!-- БЛОК HEADER-->
+    <header class="header">
+      <!-- Логотип -->
+      <!-- Элемент header__logo -->
+      <a href="/" class="header__logo">
+        <img src="images/logo.png" alt="Space логотип" />
+      </a>
+
+      <!-- БЛОК NAV - Навигация -->
+      <nav class="nav">
+        <!-- Элемент nav__list -->
+        <ul class="nav__list">
+          <!-- Элемент nav__item -->
+          <li class="nav__item">
+            <!-- Элемент nav__link-->
+            <a href="#about" class="nav__link">О нас</a>
+          </li>
+          <li class="nav__item">
+            <a href="#education" class="nav__link">Образование</a>
+          </li>
+          <li class="nav__item">
+            <a href="#community" class="nav__link">Сообщество</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contacts" class="nav__link">Контакты</a>
+          </li>
+          <li class="nav__item">
+            <!-- Модификатор nav__link--cta для кнопки регистрации -->
+            <a href="#signup" class="nav__link nav__link--cta"
+              >Зарегистрироваться</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Основоной контент -->
+    <main>
+      <section class="hero">
+        <!-- Элемент hero_content (левая колонка)-->
+        <div class="hero__content">
+          <!-- Контент слева (текст) -->
+          <h1 class="hero__title">Раскрывая чудеса Вселенной</h1>
+
+          <p class="hero__description">
+            Наша миссия в Одиссее - вдохновлять, обучать и разжигать в вас
+            страсть к космосу. <br />Мы - главное место, где вы сможете найти
+            все, что связано с исследованиями космоса, <br />астрономией и
+            тайнами Вселенной. Независимо от того, являетесь ли вы опытным
+            <br />астрономом или любознательным новичком, присоединяйтесь
+            <br />к нам в путешествии к самым отдаленным уголкам космоса.
+          </p>
+        </div>
+
+        <!-- Кнопки -->
+        <div class="hero__actions">
+          <a href="/" class="button button--primary">Присоединиться</a>
+          <a href="#video" class="button button--secondary"
+            >Просмотреть видео</a
+          >
+        </div>
+
+        <!-- Конетент справа (изображение) -->
+        <!-- Элемент hero__media (правая колонка с изображениями)-->
+        <div class="hero__media">
+          <!-- Элемент hero__image (основное изображение)-->
+          <div class="hero__image">
+            <img
+              src="images/main.png"
+              alt="Маленькая девочки в скафандре на фоне Земли из космоса"
+            />
+          </div>
+        </div>
+
+        <!-- Элемент hero__companies (БЛОК с логотипами компаний)-->
+        <div class="hero__companies">
+          <img
+            src="images/company.png"
+            alt="Логотипы компаний SPACEX, NASA, BOEING, Asroscale"
+          />
+        </div>
+      </section>
+
+      <!-- БЛОК - features (секция преимуществ сообщества)-->
+      <!-- Секция - Пресойденитесь к Сообществу (Карточки преимуществ) -->
+      <section class="features">
+        <h2 class="features__title">
+          Присоединяйтесь к нашему активному сообществу энтузиастов
+          космонавтики, где вы сможете ->
+        </h2>
+
+        <!-- Элемент freatures__grid (сетка карточек)-->
+        <div class="freatures__grid">
+          <!-- БЛОК freatures-card (карточка преимущества)-->
+          <!-- Карточка 1: использую article, так как это самодостаточный БЛОК конетента -->
+          <article class="feature-card">
+            <img
+              class="feature-card__icon"
+              src="images/Astronomy_101.png"
+              alt=""
+            />
+            <h3 class="feature-card__title">Астрономия 101</h3>
+            <p class="feature-card__text">
+              Познакомьтесь с основами астрономии. Узнайте о звездах, планетах,
+              галактиках <br />и инструментах, которые астрономы используют для
+              изучения Вселенной.
+            </p>
+          </article>
+
+          <!-- Карточка 2 -->
+          <article class="feature-card">
+            <img
+              class="feature-card__icon"
+              src="images/Last_Openings.png"
+              alt=""
+            />
+            <h3 class="feature-card__title">Последние Открытия</h3>
+            <p class="feature-card__text">
+              Будьте в курсе самых последних достижений и открытий в области
+              астрофизики <br />и освоения космоса.
+            </p>
+          </article>
+
+          <!-- Карточка 3 -->
+          <article class="feature-card">
+            <img
+              class="feature-card__icon"
+              src="images/Mastering_Space.png"
+              alt=""
+            />
+            <h3 class="feature-card__title">Освоение Космоса</h3>
+            <p class="feature-card__text">
+              Изучите последние миссии, как прошлые, так и настоящие, от НАСА,
+              ЕКА, <br />SpaceX и других космических агентств и организаций.
+            </p>
+          </article>
+
+          <!-- Карточка 4 -->
+          <article class="feature-card">
+            <img
+              class="feature-card__icon"
+              src="images/Cosmic_Technologies.png"
+              alt=""
+            />
+            <h3 class="feature-card__title">Космические Технологии</h3>
+            <p class="feature-card__text">
+              Познакомьтесь с передовыми технологиями, используемыми в
+              исследованиях космоса,<br />- от космических аппаратов и
+              телескопов до двигательных установок и космических сред обитания.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- БЛОК resources (образоавтельный ресурсы)-->
+      <!-- Секция - Образовательные ресурсы (ещё один БЛОК с карточками)-->
+      <section class="resources">
+        <h2 class="resources__title">
+          Мы стремимся сделать космическую науку доступной для всех.
+          Ознакомьтесь с нашими образовательными ресурсами,
+        </h2>
+
+        <!-- Элемент resources__grid-->
+        <div class="resources__grid">
+          <!-- БЛОК resource-card -->
+          <!-- Ресурс 1 -->
+          <article class="resource-card">
+            <span class="resource-card__number">01.</span>
+            <h3 class="resource-card__title">
+              Бесплатные онлайн-курсы <br />и учебные пособия
+            </h3>
+            <p class="resource-card__text">
+              Познакомьтесь с основами астрономии. Узнайте о звездах, планетах,
+              галактиках <br />и инструментах, которые астрономы используют для
+              изучения Вселенной.
+            </p>
+          </article>
+
+          <!-- Ресурс 2 -->
+          <article class="resource-card">
+            <span class="resource-card__number">02.</span>
+            <h3 class="resource-card__title">
+              Ресурсы для учителей <br />и воспитательниц
+            </h3>
+            <p class="resource-card__text">
+              Познакомьтесь с передовыми технологиями, используемыми в
+              исследованиях космоса, <br />- от космических аппаратов и
+              телескопов до двигательных установок и космических сред обитания.
+            </p>
+          </article>
+
+          <!-- Ресурс 3 -->
+          <article class="resource-card">
+            <span class="resource-card__number">03.</span>
+            <h3 class="resource-card__title">
+              Рекомендации <br />и отзывы о книгах
+            </h3>
+            <p class="resource-card__text">
+              Познакомьтесь с основами астрономии. Узнайте о звездах, планетах,
+              галактиках <br />и инструментах, которые астрономы используют для
+              изучения Вселенной.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- БЛОК newsletter (подписка)-->
+      <!-- Секция Подписки (СТА - призыв к действию)-->
+      <section class="newsletter">
+        <h2 class="newsletter__title">Присоединяйтесь к нашему сообществу</h2>
+        <p class="newsletter__text">
+          о звездочетах, исследователях и космических энтузиастах, когда мы
+          отправляемся <br />в путешествие по космосу, как никогда раньше.
+        </p>
+
+        <!-- Элемент newsletter__form -->
+        <!-- Форма подписки -->
+        <form class="newsletter__form" action="#" method="post">
+          <label for="email" class="visually-hidden">Введите ваш email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Введите свой адрес электронной почты"
+            required
+          />
+
+          <!-- БЛОК button с модификатором -->
+          <button type="submit" class="button button--primary">
+            Подписаться
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <!-- БЛОК footer -->
+    <!-- Подвал -->
+    <footer class="footer">
+      <!-- Элемент footer__info -->
+      <div class="footer__info">
+        <p class="footer__author">Danik_dizain</p>
+        <a href="mailto:975ds579@gmail.com">975ds579@gmail.com</a>
+      </div>
+
+      <!-- БЛОК footer-nav (навигация в подвале)-->
+      <div class="footer-nav">
+        <h3 class="visually-hidden">Дополнительная навигация</h3>
+        <ul class="footer-nav__list">
+          <li class="footer-nav__item">
+            <a href="#about" class="footer-nav__link">О нас</a>
+          </li>
+          <li class="footer-nav__item">
+            <a href="#education" class="footer-nav__link">Образование</a>
+          </li>
+          <li class="footer-nav__item">
+            <a href="#community" class="footer-nav__link">Сообщество</a>
+          </li>
+          <li class="footer-nav__item">
+            <a href="#privacy" class="footer-nav__link"
+              >Политика конфиденциальности</a
+            >
+          </li>
+          <li class="footer-nav__item">
+            <a href="#terns" class="footer-nav__link">Условие и соглашение</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Элемент foorer__copyright (повтор email внизу) -->
+      <div class="foorer__copyright">
+        <a href="mailto:975ds579@gmail.com">975ds579@gmail.com</a>
+      </div>
+    </footer>
+
+    <!-- Подключил все скрипты -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
